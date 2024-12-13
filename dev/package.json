@@ -1,0 +1,30 @@
+{
+  "name": "rinose.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir ../",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinose/rinose.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinose/rinose.github.io/issues"
+  },
+  "homepage": "https://github.com/rinose/rinose.github.io#readme",
+  "devDependencies": {
+    "parcel": "^2.13.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1",
+    "typewriter-effect": "^2.21.0"
+  }
+}
