@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect/dist/core';
 import * as am5 from "@amcharts/amcharts5";
 import * as am5hierarchy from "@amcharts/amcharts5/hierarchy";
 import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
+const myimage = new URL("../assets/5239975.png", import.meta.url)
 
 
 new Typewriter('#typewriter', {
@@ -27,14 +28,6 @@ let root = am5.Root.new("chartdiv");
 root.setThemes([
   am5themes_Animated.new(root)
 ]);
-
-
-// Create wrapper container
-let container = root.container.children.push(am5.Container.new(root, {
-  width: am5.percent(100),
-  height: am5.percent(100),
-  layout: root.verticalLayout
-}));
 
 
 let zoomableContainer = root.container.children.push(
@@ -63,6 +56,23 @@ let series = zoomableContainer.contents.children.push(am5hierarchy.ForceDirected
   centerStrength: 0.5
 }));
 
+
+// Add an image to the root node
+series.events.on("datavalidated", function(event) {
+  let rootNode = series.dataItems[0];
+
+  if (rootNode) {
+    let image = am5.Picture.new(root, {
+      width: 100,
+      height: 100,
+      centerX: am5.p50,
+      centerY: am5.p50,
+      scale: 1,
+      src: myimage, // Replace with the path to your image
+    });
+    rootNode.get("node").children.push(image);
+  }
+});
 
 // Generate and set data
 // https://www.amcharts.com/docs/v5/charts/hierarchy/#Setting_data
