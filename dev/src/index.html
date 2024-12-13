@@ -11,36 +11,41 @@
             padding: 0;
             background-color: #0C0C0C;
             color: #00FF00
+            
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem;
-            text-align: center;
+        body a {
+            color: #00FF00;
         }
         main {
             padding: 2rem;
         }
         footer {
-            background-color: #333;
+            background-color: #3333333b;
             color: #fff;
             text-align: center;
-            padding: 1rem;
+            padding: 0.2rem;
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .chartdiv {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <main>
-      <div id="typewriter"></div>
-      <div id="container"></div>
+      
+      <div id="chartdiv" class="chartdiv"></div>
+      <script type="module" src="./app.js"></script>
     </main>
     <footer>
-        <p>&copy; https://github.com/rinose </p>
+        <p>&copy; <a target="_blank" href="https://github.com/rinose">https://github.com/rinose</a> </p>
     </footer>
- 
-    <script type="module" src="./app.js"></script>
+    <div id="typewriter"></div>
 </body>
 </html>
