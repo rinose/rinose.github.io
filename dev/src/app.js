@@ -55,6 +55,7 @@ let zoomTools = zoomableContainer.children.push(am5.ZoomTools.new(root, {
 let series = zoomableContainer.contents.children.push(am5hierarchy.ForceDirected.new(root, {
   maskContent:false, //!important with zoomable containers
   singleBranchOnly: false,
+  minRadius: 30,
   downDepth: 1,
   initialDepth: 2,
   valueField: "value",
@@ -167,7 +168,7 @@ let data = {
           "value": 10
         },
         {
-          "name": "POSTGRESQL",
+          "name": "POSTGRES",
           "value": 40
         },
         {
@@ -252,6 +253,13 @@ let data = {
     }
   ]
 }
+
+series.nodes.template.setAll({
+  toggleKey: "none",
+  cursorOverStyle: "default",
+  "tooltipText": "{category}"
+});
+
 
 
 series.data.setAll([data]);
