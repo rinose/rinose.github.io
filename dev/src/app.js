@@ -57,7 +57,7 @@ let series = zoomableContainer.contents.children.push(am5hierarchy.ForceDirected
   singleBranchOnly: false,
   downDepth: 1,
   //minRadius: 10,
-  initialDepth: 2,
+  initialDepth: 3,
   valueField: "value",
   categoryField: "name",
   childDataField: "children",

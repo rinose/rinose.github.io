@@ -39,18 +39,18 @@
       {
         "name": "CLOUD",
         "value": 30,
-        "description": "Proficient in cloud technologies including AWS, Azure, and GCP, with a focus on data management and deployment strategies.",
+        "description": "Proficient in cloud technologies including AWS and GCP, with a focus on data management and deployment strategies.",
         "children": [
           {
             "name": "AWS",
             "value": 20
           },
           {
-            "name": "AZURE",
+            "name": "GCP",
             "value": 10
           },
           {
-            "name": "GCP",
+            "name": "Github\nActions",
             "value": 10
           }
         ]
@@ -104,7 +104,7 @@
       {
         "name": "TEACHING",
         "value": 40,
-        "description": "Extensive experience in conducting STEM courses, including programming in Python, AI applications, and robotics, catering to diverse age groups.",
+        "description": "Extensive experience in conducting STEM courses, including programming in Python, AI applications, and robotics, catering to diverse age groups. <br/>Extensive experience in teaching STEM subjects across various institutions, including: <br/> - University of Rome La Sapienza: Computational Graphics courses. <br/> - Liceo Statale Alessandro Manzoni in Caserta: Teacher for Python programming and AI courses. <br/> - Primary School Guglielmo Marconi in Afragola (NA): Conducted STEM and coding workshops for children.",
         "children": [
           {
             "name": "STEM Courses",
@@ -115,6 +115,11 @@
             "name": "Educational Workshops",
             "value": 20,
             "description": "Conducting hands-on workshops with Raspberry Pi, Arduino, and robotics design."
+          },
+          {
+            "name": "Computer Graphics",
+            "value": 20,
+            "description": "Extensive experience in computer graphics, including scientific visualization and innovative methods for image processing."
           }
         ]
       },
