@@ -55,13 +55,13 @@ let zoomTools = zoomableContainer.children.push(am5.ZoomTools.new(root, {
 let series = zoomableContainer.contents.children.push(am5hierarchy.ForceDirected.new(root, {
   maskContent:false, //!important with zoomable containers
   singleBranchOnly: false,
-  minRadius: 25,
   downDepth: 1,
   initialDepth: 2,
   valueField: "value",
   categoryField: "name",
   childDataField: "children",
-  centerStrength: 0.5
+  manyBodyStrength: -10,
+  centerStrength: 0.8
 }));
 
 
@@ -108,7 +108,7 @@ series.nodes.template.setAll({
 });
 
 
-
+series.labels.template.set("minScale", 0);
 series.data.setAll([data]);
 series.set("selectedDataItem", series.dataItems[0]);
 
