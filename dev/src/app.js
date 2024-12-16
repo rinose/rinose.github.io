@@ -56,6 +56,7 @@ let series = zoomableContainer.contents.children.push(am5hierarchy.ForceDirected
   maskContent:false, //!important with zoomable containers
   singleBranchOnly: false,
   downDepth: 1,
+  //minRadius: 10,
   initialDepth: 2,
   valueField: "value",
   categoryField: "name",
