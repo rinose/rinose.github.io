@@ -12,18 +12,15 @@ function App() {
   const resize = () => {
     if (divRef.current) {
       const windowHeight = window.innerHeight;
-      console.log(windowHeight)
       divRef.current.style.height = windowHeight + "px"; // Imposta l'altezza
     }
   };
 
   const onMouseDown = (e) => {
-    console.log(e.target.name)
     setInfo(e.target.name)
     const children = mydata["curriculum"]["children"];
     const result = children.find(obj => obj.name === e.target.name.toUpperCase());
     if (result) {
-      console.log('I have been clicked!');
       const description = "<b>" + e.target.name + "</b><br/><br/>" + getDescription(result)
       setInfo(description)
     } else {
