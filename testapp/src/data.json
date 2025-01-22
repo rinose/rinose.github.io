@@ -1,0 +1,185 @@
+{
+  "summary": "I'm Rino Setola and I'm an expert in programming, software development, and teaching in the STEM sector",
+  "curriculum": {
+    "name": "Rino Setola",
+    "description": "I'am Rinos and I'am a highly skilled professional in programming, software development, and STEM education. I have a comprehensive background in modern web development, cloud technologies, database management, and embedded systems. With advanced proficiency in multiple programming languages and strong problem-solving skills, I am adept at creating dynamic solutions for various challenges.",
+    "children": [
+      {
+        "name": "WEB",
+        "value": 40,
+        "description": "Expert in modern web development using technologies like HTML, CSS, JavaScript, and Python. Skilled in creating dynamic and responsive websites.",
+        "children": [
+          {
+            "name": "HTML",
+            "value": 10
+          },
+          {
+            "name": "ReactJS",
+            "value": 50
+          },
+          {
+            "name": "Angular",
+            "value": 10
+          },
+          {
+            "name": "Nginx",
+            "value": 5
+          },
+          {
+            "name": "PYTHON",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "name": "SYS",
+        "value": 30,
+        "description": "Experienced in working with embedded systems such as Arduino and Raspberry Pi, focusing on hardware integration and programming."
+      },
+      {
+        "name": "CLOUD",
+        "value": 30,
+        "description": "Proficient in cloud technologies including AWS and GCP, with a focus on data management and deployment strategies.",
+        "children": [
+          {
+            "name": "AWS",
+            "value": 20
+          },
+          {
+            "name": "GCP",
+            "value": 10
+          },
+          {
+            "name": "Github\nActions",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "name": "DB",
+        "value": 40,
+        "description": "Experienced in managing relational and non-relational databases, optimizing performance, and ensuring data integrity.",
+        "children": [
+          {
+            "name": "MYSQL",
+            "value": 30
+          },
+          {
+            "name": "MONGODB",
+            "value": 10
+          },
+          {
+            "name": "POSTGRES",
+            "value": 40
+          },
+          {
+            "name": "SQLITE",
+            "value": 30
+          },
+          {
+            "name": "ORACLE",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "name": "CODE",
+        "value": 50,
+        "description": "Advanced proficiency in multiple programming languages, with strong problem-solving skills and software development expertise.",
+        "children": [
+          {
+            "name": "JAVA",
+            "value": 20
+          },
+          {
+            "name": "C/C++",
+            "value": 30
+          },
+          {
+            "name": "PYTHON",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "name": "TEACHING",
+        "value": 40,
+        "description": "Extensive experience in conducting STEM courses, including programming in Python, AI applications, and robotics, catering to diverse age groups. <br/>Extensive experience in teaching STEM subjects across various institutions, including: <br/> - University of Rome La Sapienza: Computational Graphics courses. <br/> - Liceo Statale Alessandro Manzoni in Caserta: Teacher for Python programming and AI courses. <br/> - Primary School Guglielmo Marconi in Afragola (NA): Conducted STEM and coding workshops for children.",
+        "children": [
+          {
+            "name": "STEM Courses",
+            "value": 20,
+            "description": "Teaching Python programming, artificial intelligence, and robotics to various age groups."
+          },
+          {
+            "name": "Educational Workshops",
+            "value": 20,
+            "description": "Conducting hands-on workshops with Raspberry Pi, Arduino, and robotics design."
+          },
+          {
+            "name": "Computer Graphics",
+            "value": 20,
+            "description": "Extensive experience in computer graphics, including scientific visualization and innovative methods for image processing."
+          }
+        ]
+      },
+      {
+        "name": "EDUCATION",
+        "value": 50,
+        "description": "Comprehensive academic background in Mathematics and Scientific Computing, complemented by certifications in Python and backend development.",
+        "children": [
+          {
+            "name": "Mathematics Degree",
+            "value": 20,
+            "description": "Master's degree from the Second University of Naples."
+          },
+          {
+            "name": "Scientific Computing Master's",
+            "value": 20,
+            "description": "Second-level Master's degree from La Sapienza University in Rome."
+          },
+          {
+            "name": "IT Certifications",
+            "value": 10,
+            "description": "Certifications in Python programming, relational databases, and backend development."
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "value": 50,
+        "description": "Expert in AI technologies, specializing in OpenAI, Gemini, and Anthropic APIs, with practical experience using the OpenCV library.",
+        "children": [
+          {
+            "name": "OpenAI API",
+            "value": 20
+          },
+          {
+            "name": "Gemini API",
+            "value": 20
+          },
+          {
+            "name": "Anthropic API",
+            "value": 20
+          },
+          {
+            "name": "OpenCV Library",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "name": "CONTACTS",
+        "value": 50,
+        "description": "Here are my contacts",
+        "children": [
+          {
+            "name": "Email",
+            "description": "rinosetola@gmail.com",
+            "value": 20
+          }
+        ]
+      }
+    ]
+  }
+}
